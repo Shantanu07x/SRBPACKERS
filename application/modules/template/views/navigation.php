@@ -43,20 +43,20 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
-                    <ul class="top-social">
-                        <li>
-                            <a href="javascript:void(0);"  class="sign-in" data-bs-toggle="modal" data-bs-target="#makeAPaymentPopup">
-                                <i class="fa fa-inr" aria-hidden="true"></i>Make A Payment
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);" class="sign-in quickEnquirybtn" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal"> 
-                                <i class="fa-solid fa-arrow-right-long"></i> Get A Quote
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+             <div class="col-lg-4">
+    <ul class="top-social">
+        <li>
+            <button type="button" class="sign-in" data-bs-toggle="modal" data-bs-target="#makeAPaymentPopup">
+                <i class="fa fa-inr" aria-hidden="true"></i> Make A Payment
+            </button>
+        </li>
+        <li>
+            <button type="button" class="sign-in quickEnquirybtn" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
+                <i class="fa-solid fa-arrow-right-long"></i> Get A Quote
+            </button>
+        </li>
+    </ul>
+</div>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                                         <li><a href="<?= site_url() ?>" class="menu-active">Home</a></li>
                                         <li><a href="<?= site_url('about') ?>">About Us</a></li>
                                         <li>
-                                            <a href="javascript:void(0);">Strategy <i class="fas fa-angle-down"></i></a>
+                                           <button type="button" class="fw-bold">Strategy <i class="fas fa-angle-down"></i></button>
                                             <ul class="submenu">
                                                 <li><a href="<?= site_url('packing-material') ?>" class=""><i class="fa-light fa-arrow-right"></i> Packing Material</a></li>
                                                 <li><a href="<?= site_url('packing-tips') ?>" class=""><i class="fa-light fa-arrow-right"></i> Packing Tips</a></li>
@@ -87,7 +87,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0);">Our Services <i class="fas fa-angle-down"></i></a>
+                                           <button type="button" class="fw-bold">Our Services <i class="fas fa-angle-down"></i></button>
                                             <ul class="submenu">
                                                 <li><a href="<?= site_url('all_services') ?>" class=""><i class="fa-light fa-arrow-right"></i> All Services</a></li>
                                                 <li><a href="<?= site_url('transportation') ?>" class=""><i class="fa-light fa-arrow-right"></i> Transportation</a></li>
@@ -109,7 +109,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0);">Activity <i class="fas fa-angle-down"></i></a>
+                                         <button type="button" class="fw-bold">Activity <i class="fas fa-angle-down"></i></button>
                                             <ul class="submenu">
                                                 <li><a href="<?= site_url('photo-gallery') ?>">Gallery</a></li>
                                                 <li><a href="<?= site_url('faqs') ?>">FAQ's</a></li>
@@ -124,13 +124,16 @@
                             </div>
                         </div>
                         <div class="header-button">
-                            <a href="javascript:void(0);" class="theme-btn quickEnquirybtn" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
-                                <span>
-                                    get A Quote
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </a>
-                        </div>
+    <button type="button" class="theme-btn quickEnquirybtn"
+        data-bs-toggle="modal"
+        title="Request a Free Quote Today!"
+        data-bs-target="#qteModal">
+        <span>
+            get A Quote
+            <i class="fa-solid fa-arrow-right-long"></i>
+        </span>
+    </button>
+</div>
                         <div class="header__hamburger d-xl-block my-auto">
                             <div class="sidebar__toggle">
                                 <i class="fas fa-bars"></i>
@@ -155,10 +158,10 @@
                         </a>
                     </div>
                     <div class="offcanvas__close">
-                        <button>
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </div>
+    <button type="button" aria-label="Close menu">
+        <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+</div>
                 </div>
                 <p class="text d-none d-lg-block">
                     Get Ready to Move with Ease! Reach Out to <b>SRB Group Packers and Movers</b> for a Smooth, Stress-Free Relocation Experience. Contact Us Today!
@@ -201,7 +204,7 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="javascript:void(0);">We Are Available 24x7</a>
+                                <span>We Are Available 24x7</span>
                             </div>
                         </li>
                     </ul>
