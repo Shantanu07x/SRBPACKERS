@@ -2,8 +2,8 @@
     <div class="contact-form-header  text-white p-2 rounded-top" style="background:#1c35a4;">
         <div class="row align-items-center">
             <div class="col-12">
-                <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <span class="font-weight-normal" style="font-size: 1rem;color:white;">Request a Free Quote Today!</span>
+                <span class="mb-0 d-flex justify-content-between align-items-center">
+                   <span class="font-weight-normal" style="font-size: 1rem;color:white;">Request a Free Quote Today!</span>
                     <?php if (strtolower($city) == 'jodhpur'): ?>
                         <a href="tel:9982390043" class="text-white text-decoration-none align-items-center">
                             <i class="fas fa-phone-alt mr-2"></i> 9982390043
@@ -13,7 +13,7 @@
                             <i class="fas fa-phone-alt mr-2"></i> <?= $phone ?>
                         </a>
                     <?php endif; ?>
-                </h5>
+                </span>
             </div>
         </div>
     </div>
