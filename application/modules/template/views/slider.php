@@ -38,7 +38,7 @@
                                             About Us
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </a>
-                                        <a href="javascript:void(0);" data-animation="slideInRight" data-duration="2s" data-delay=".9s" class="theme-btn border-white quickEnquirybtn"  data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
+                                        <a href="#qteModal" data-animation="slideInRight" data-duration="2s" data-delay=".9s" class="theme-btn border-white quickEnquirybtn"  data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
                                             Get A Quote
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </a>
