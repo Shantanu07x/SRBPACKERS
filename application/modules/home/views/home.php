@@ -123,7 +123,7 @@
                                     </a>
                                 </div>
                                 <div class="author-image wow fadeInUp" data-wow-delay=".7s">
-                                    <a href="javascript:void(0);" class="theme-btn quickEnquirybtn" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
+                                    <a href="#qteModal" class="theme-btn quickEnquirybtn" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
                                         Get A Quote
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -308,7 +308,7 @@ $services = [
                     <h3 class="wow fadeInUp" data-wow-delay=".5s">
                         Seamless Moves, Endless Possibilities <br> Let’s Connect Your World!
                     </h3>
-                    <a href="javascript:void(0);" class="theme-btn bg-white wow fadeInUp quickEnquirybtn" data-wow-delay=".7s">
+                    <a href="#qteModal" class="theme-btn bg-white wow fadeInUp quickEnquirybtn" data-wow-delay=".7s">
                         get A Quote
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
