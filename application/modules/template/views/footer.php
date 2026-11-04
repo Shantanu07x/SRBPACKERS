@@ -163,10 +163,13 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="javascript:void(0);" class="theme-btn hover-white mt-4 quickEnquirybtn" title="Get A Quote" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal">
-                                Get A Quote
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
+                            <button type="button" class="theme-btn hover-white mt-4 quickEnquirybtn"
+    title="Request a Free Quote Today!"
+    data-bs-toggle="modal"
+    data-bs-target="#qteModal">
+    Get A Quote
+    <i class="fa-solid fa-arrow-right-long"></i>
+</button>
                         </div>
                     </div>
                 </div>
@@ -190,25 +193,48 @@
                 <?php */ ?>
             </div>
         </div>
-        <a href="javascript:void(0);" id="scrollUp" class="scroll-icon" title="Scroll to Top">
-            <i class="fa-solid fa-arrow-up"></i>
-        </a>
+        <button type="button" id="scrollUp" class="scroll-icon" title="Scroll to Top" aria-label="Scroll to Top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
     </div>
 </footer>
 <div class="goweb_quick_link_btn_1">
-    <a onclick="gtag_report_conversion_call_btn();" class="botbtn" href="tel:8383053021"><i class="fa-light fa-phone"></i><br><span>
-            <p>CALL</p>
-        </span></a>
+    <a onclick="gtag_report_conversion_call_btn();"
+   class="botbtn"
+   href="tel:8383053021"
+   aria-label="Call us at 8383053021">
+
+    <i class="fa-light fa-phone" aria-hidden="true"></i>
+    <br>
+    <span>
+        <p>CALL</p>
+    </span>
+</a>
     <a class="botbtn" href="mailto:info@srbpackers.com?cc=info@srbpackers.com&amp;subject=Iam Looking for Packers and Movers"><i class="fa-regular fa-envelope" aria-hidden="true"></i><br><span>
             <p>E-MAIL</p>
         </span></a>
-    <a onclick="gtag_report_conversion_whatsapp_btn();" class="botbtn" href="http://api.whatsapp.com/send?phone=+918383053021&amp;text=Iam%20Looking%20for%20Packers%20and%20Movers"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><br><span>
-            <p>WHATSAPP</p>
-        </span></a>
-    <a class="botbtn quickEnquirybtn" href="javascript:void(0);" data-bs-toggle="modal" title="Request a Free Quote Today!" data-bs-target="#qteModal"><i class="fa-light
-fa-square-pen" aria-hidden="true"></i><br><span>
-            <p>ENQUIRY</p>
-        </span></a>
+  <a onclick="gtag_report_conversion_whatsapp_btn();"
+   class="botbtn"
+   href="https://api.whatsapp.com/send?phone=+918383053021&amp;text=Iam%20Looking%20for%20Packers%20and%20Movers"
+   aria-label="Contact us on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    <br>
+    <span>
+        <p>WHATSAPP</p>
+    </span>
+</a>
+    <button type="button" class="botbtn quickEnquirybtn"
+    data-bs-toggle="modal"
+    title="Request a Free Quote Today!"
+    data-bs-target="#qteModal"
+    aria-label="Open enquiry form">
+    <i class="fa-light fa-square-pen" aria-hidden="true"></i>
+    <br>
+    <span>
+        <p>ENQUIRY</p>
+    </span>
+</button>
     <a onclick="gtag_report_conversion_sms_btn();" class="botbtn" href="sms:08383053021?body=Iam Looking For Packers and Movers"> <i class="fa-light fa-message-sms" aria-hidden="true"></i><br><span>
             <p>MESSAGE</p>
         </span></a>
