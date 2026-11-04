@@ -1,0 +1,52 @@
+<?php
+$cities = array(
+
+// array('nm' => 'Bhilwara', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Asind', 'lat' => '25.8450', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Bijolia', 'lat' => '25.8167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Gangapur', 'lat' => '25.4333', 'lon' => '74.7167', 'sc' => 'RJ'),
+array('nm' => 'Gulabpura', 'lat' => '25.5167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Hamirgarh', 'lat' => '25.6167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Jahazpur', 'lat' => '25.4167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Mandal', 'lat' => '25.4167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Mandalgarh', 'lat' => '25.4167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Raipur', 'lat' => '25.4167', 'lon' => '74.4167', 'sc' => 'RJ'),
+array('nm' => 'Shahpura', 'lat' => '25.4167', 'lon' => '74.4167', 'sc' => 'RJ'),
+
+array('nm' => 'Aheeron Ka Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Ajeetpura', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Ameshar', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Antali', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Arjun Pura', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bagata', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bagmali', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bahadurpura', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bamni', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bara Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Barana', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Barethpura', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Barla', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bar Nagar', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Barni', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Barsani', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bathera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Beran', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bhairoo Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bhanas', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Bhati Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Borela', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Brahmpuri', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Charon Ka Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Chena Ka Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Chhapriya Khera', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Chitoriya', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Chotiyas', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Dantra', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Darawat', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Daulat Garh', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Daulatpura Ki Dhani', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ'),
+array('nm' => 'Deori', 'lat' => '25.3450', 'lon' => '74.6349', 'sc' => 'RJ')
+
+
+
+);

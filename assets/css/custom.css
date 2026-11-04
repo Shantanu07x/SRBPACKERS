@@ -1,0 +1,464 @@
+/*================================================
+Top Area CSS
+=================================================*/
+
+.gocube-top-header {
+  background-color: #0f0d1d;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.gocube-top-header a {
+  text-decoration: none;
+}
+
+.gocube-top-header .top-list a:hover {
+  color: #1c35a4 !important;
+}
+
+.gocube-top-header .container-fluid {
+  max-width: 1451px;
+  margin: auto;
+}
+
+.gocube-top-header .top-list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.gocube-top-header .top-list li {
+  list-style-type: none;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 7px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.gocube-top-header .top-list li:last-child {
+  margin-right: 0;
+}
+
+.gocube-top-header .top-list li a {
+  color: #ffffff;
+}
+
+.gocube-top-header .top-list li i {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  color: #0f1132;
+  font-size: 16px;
+  margin-right: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.gocube-top-header .top-list li:hover i {
+  background-color: #1c35a4;
+  color: #ffffff;
+}
+
+.gocube-top-header .top-social {
+  padding-left: 0;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.gocube-top-header .top-social li {
+  list-style-type: none;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.gocube-top-header .top-social li:last-child {
+  margin-right: 0;
+}
+
+.gocube-top-header .top-social li i {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  color: #0f1132;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-right: 3px;
+}
+
+.gocube-top-header .top-social li i:hover {
+  background-color: #1c35a4;
+  color: #ffffff;
+}
+
+.gocube-top-header .top-social li .log-in {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.gocube-top-header .top-social li .sign-in {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: #ffffff;
+  color: #0f123b;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.gocube-top-header .top-social li .sign-in:hover {
+  background-color: #1c35a4;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 400px) {
+  .gocube-top-header .top-list li {
+    font-size: 9px;
+  }
+
+  .gocube-top-header .top-social li .sign-in {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  .gocube-top-header .top-list li {
+    font-size: 12px;
+  }
+
+  .gocube-top-header .top-social li .sign-in {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gocube-top-header .top-list {
+    text-align: center;
+  }
+
+  .gocube-top-header .top-list li {
+    margin-bottom: 7px;
+  }
+
+  .gocube-top-header .top-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .gocube-top-header .top-social {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .gocube-top-header .top-social li {
+    margin-bottom: 10px;
+  }
+
+  .gocube-top-header .top-social li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .gocube-top-header .top-list {
+    text-align: center;
+  }
+
+  .gocube-top-header .top-social {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .gocube-top-header .top-list li {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .gocube-top-header .top-social li .log-in {
+    font-size: 14px;
+  }
+
+  .gocube-top-header .top-social li .sign-in {
+    font-size: 14px;
+  }
+}
+
+.quick-enquery-popup-content {
+  padding: 20px 30px;
+}
+.quick-enquery-popup-content #headlineg {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.quick-enquery-popup-content .offcanvas__top {
+  margin-bottom: 5px !important;
+}
+.quick-enquery-popup-content input {
+  border: 1px solid #0f0d1d !important;
+  color: var(--text) !important;
+  border-radius: 5px !important;
+  padding: 6px 20px !important;
+}
+.quick-enquery-popup-content textarea {
+  border: 1px solid #0f0d1d !important;
+  color: var(--text) !important;
+  border-radius: 5px !important;
+}
+.quick-enquery-popup-content input::placeholder {
+  color: var(--text) !important;
+}
+.quick-enquery-popup-content textarea::placeholder {
+  color: var(--text) !important;
+}
+
+/* place name sugges */
+
+.gocube-gmapapi-01 {
+  max-width: 100%;
+  max-height: 310px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 0px;
+  margin-bottom: 3px;
+  z-index: 999999999999999999;
+}
+
+.gocube-gmapapi-02 {
+  display: flex;
+  padding: 7px 8px 0px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-bottom: 1px solid #eee;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 10px;
+  line-height: 1.5;
+}
+
+.gocube-gmapapi-02:last-child {
+  border-bottom: none;
+}
+
+.gocube-gmapapi-03 svg {
+  margin-right: 7px;
+  width: 18px;
+  height: 22px;
+  top: 23px;
+  padding-top: 0px;
+  margin-top: -5px !important;
+}
+
+.gocube-gmapapi-02:hover {
+  background-color: #f0f0f0;
+}
+
+.gocube-gmapapi-04 {
+  font-size: 13px;
+  color: black;
+}
+
+.gocube-gmapapi-05 {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3px;
+  margin-bottom: -1px;
+  margin-right: 0px;
+  color: black !important;
+}
+
+.gocube-gmapapi-05:hover {
+  color: #2792e8 !important;
+}
+
+.gocube-gmapapi-05 div {
+  font-size: 12px;
+}
+
+.gocube-gmapapi-05 img {
+  max-width: 50px;
+}
+
+.menu-active {
+  color: #1c35a4 !important;
+}
+
+.h2sectionheadline {
+  font-size: 23px !important;
+  line-height: 125% !important;
+  font-weight: 700 !important;
+}
+.achievement-section-headline {
+  font-size: 29px !important;
+}
+@media (max-width: 1199px) {
+  .h2sectionheadline {
+    font-size: 21px !important;
+  }
+  .achievement-section-headline {
+    font-size: 24px !important;
+  }
+}
+@media (max-width: 767px) {
+  .h2sectionheadline {
+    font-size: 19px !important;
+  }
+  .achievement-section-headline {
+    font-size: 21px !important;
+  }
+  .achievement-wrapper {
+    justify-content: center !important;
+  }
+}
+@media (max-width: 575px) {
+  .h2sectionheadline {
+    font-size: 19px !important;
+  }
+  .achievement-section-headline {
+    font-size: 19px !important;
+  }
+  .achievement-wrapper {
+    justify-content: center !important;
+  }
+}
+
+.border-section-top {
+  border-top: 3px solid #1c35a4;
+}
+.border-section-bottom {
+  border-bottom: 3px solid #1c35a4;
+}
+
+@media only screen and (max-width: 899px) {
+  .goweb_quick_link_btn_1 {
+    background-color: #1c35a4;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    clear: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 999;
+  }
+  .goweb_quick_link_btn_1 .botbtn {
+    text-align: center;
+    margin: 8px auto;
+    line-height: 12px;
+    color: #fff;
+    border-left: 2px solid #fff;
+    float: left;
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .goweb_quick_link_btn_1 .botbtn:nth-child(5) {
+    border-right: 1px solid #fff;
+  }
+  .goweb_quick_link_btn_1 .botbtn i {
+    color: #fff;
+    font-size: 20px;
+  }
+  .goweb_quick_link_btn_1 .botbtn span {
+    color: #fff;
+    font-size: 7px;
+  }
+  body {
+    margin-bottom: 10% !important;
+  }
+}
+@media only screen and (min-width: 899px) {
+  .goweb_quick_link_btn_1 a:nth-child(2),
+  .goweb_quick_link_btn_1 a:nth-child(4),
+  .goweb_quick_link_btn_1 a:nth-child(5) {
+    display: none;
+  }
+  .goweb_quick_link_btn_1 a span {
+    display: none;
+  }
+  .goweb_quick_link_btn_1 a:nth-child(1) {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 63px;
+    left: 10px;
+    background-color: #1c35a4;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 27px;
+    z-index: 100;
+  }
+  .goweb_quick_link_btn_1 a:nth-child(3) {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 13px;
+    left: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 27px;
+    z-index: 100;
+  }
+  .goweb_quick_link_btn_1 a i {
+    margin-top: 10px;
+    color: #fff;
+  }
+}
+
+.our-service-area5 {
+  padding: 7px 18px;
+  background-color: var(--white);
+  overflow: hidden;
+  color: var(--theme);
+  border-left: 5px solid var(--theme);
+  font-weight: 500;
+  margin-top: 13px;
+}
+
+.packing-material-content ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 2rem !important;
+  list-style: circle !important;
+}
+
+.unorder-list-reset ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 2rem !important;
+  list-style: circle !important;
+}
