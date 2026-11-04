@@ -80,7 +80,7 @@ class MX_Controller
         // Review
         $this->comp['ratingValue'] = "4.8";
         $this->comp['ratingCount'] = "7887";
-        $this->comp['datePublished'] = "15 july, 2025";
+        $this->comp['datePublished'] = "15 july, 20265";
         $this->comp['reviewBody'] = "SRB Group Packers and Movers made my relocation smooth and stress-free. Their team was professional, punctual, and handled everything with great care.";
         $this->comp['reviewperson'] = "Sarwar Islam";
 
