@@ -33,7 +33,7 @@
   <meta name="coverage" content="Worldwide" />
   <meta name="allow-search" content="yes" />
   <meta name="robots" content="index, follow" />
-  <meta property="al:web:url" content="<?= site_url() ?>">
+  <meta property="al:web:url" content="<?= @$url ?>">
   <meta name="theme-color" content="<?= $themeColor ?>">
   <meta name="HandheldFriendly" content="True">
   <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
@@ -59,7 +59,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "<?= $company3 ?>",
-      "url": "<?= site_url() ?>",
+      "url": "<?= @$url ?>",
       "logo": "<?= base_url() ?>assets/media/logo/favicon.webp"
     }
   </script>
@@ -68,7 +68,7 @@
       "@context": "http://schema.org",
       "@type": "LocalBusiness",
       "name": "<?= $company3 ?>",
-      "url": "<?= site_url() ?>",
+      "url": "<?= @$url ?>",
       "image": ["<?= base_url() ?>assets/media/logo/favicon.webp"],
       "address": {
         "@type": "PostalAddress",
@@ -110,7 +110,7 @@
       "name": "Packers and Movers Services in <?= $city ?>",
       "image": "<?= $img ?>",
       "description": "<?= @$description ?>",
-      "url": "<?= $url ?>",
+      "url": "<?= @$url ?>",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "<?= $ratingValue ?>",
@@ -134,7 +134,7 @@
         "priceCurrency": "INR",
         "priceValidUntil": "<?= date("Y-m-") ?>30",
         "availability": "https://schema.org/InStock",
-        "url": "<?= $url ?>"
+        "url": "<?= @$url ?>"
       },
       "brand": {
         "@type": "Brand",
